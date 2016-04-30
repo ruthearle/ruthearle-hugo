@@ -1,1 +1,0 @@
-# ruthearle-hugo
