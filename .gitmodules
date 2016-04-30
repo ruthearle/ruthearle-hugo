@@ -1,0 +1,6 @@
+[submodule "ruthearle.github.io"]
+	path = ruthearle.github.io
+	url = git@github.com:ruthearle/ruthearle.github.io.git
+[submodule "themes/hugo-future-imperfect"]
+	path = themes/hugo-future-imperfect
+	url = https://github.com/jpescador/hugo-future-imperfect.git
