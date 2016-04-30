@@ -1,6 +1,6 @@
 +++
 author = "Ruth Earle"
-categories = []
+categories = ["tutorial", "hugo"]
 date = "2016-04-30T14:04:32+01:00"
 draft = true
 description = "How I got Hugo Static Site Generator up and running."

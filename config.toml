@@ -6,12 +6,11 @@ publishdir = "ruthearle.github.io"
 copyright = "Ruth Earle"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "shortname"
+disqusShortname = "blogruthearle"
 googleAnalytics = ""
 canonifyurls = true
 pygmentsStyle = "monokai"
 
-[author]
 [params]
     name = "Ruth Earle"
     # Sets the meta tag description, usually reserved for the main page
@@ -81,11 +80,13 @@ pygmentsStyle = "monokai"
 [[menu.main]]
     name = "Categories"
     url = "/categories"
+    identifier = "fa fa-list"
     weight = 2
 
 [[menu.main]]
     name = "About"
     url = "/about"
+    identifier = "fa fa-question-circle-o"
     weight = 3
 
 # Insert your username and the icon will apear on the page as long as
@@ -94,7 +95,7 @@ pygmentsStyle = "monokai"
 [social]
     github          = "https://github.com/ruthearle"
     bitbucket       = ""
-    jsfiddle        = "https://jsfiddle.net/user/ruthearle/fiddles/"
+    jsfiddle        = ""
     codepen         = ""
     foursquare      = ""
     dribbble        = ""
@@ -111,7 +112,7 @@ pygmentsStyle = "monokai"
     xing            = ""
     linkedin        = "https://uk.linkedin.com/in/ruth-earle-8a488998"
     slideshare      = ""
-    stackoverflow   = "http://stackoverflow.com/users/2609786/ruth"
+    stackoverflow   = ""
     reddit          = ""
     pinterest       = ""
     googleplus      = ""
