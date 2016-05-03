@@ -1,4 +1,4 @@
-baseurl = "http://blog.ruthearle.com"
+baseurl = "http://ruthearle.com"
 languageCode = "en-us"
 title = "What if..."
 theme = "hugo-future-imperfect"
@@ -9,10 +9,11 @@ paginate = 3
 disqusShortname = "blogruthearle"
 googleAnalytics = ""
 canonifyurls = true
-pygmentsStyle = "monokai"
+pygmentsStyle = "syntax"
 
 [params]
     name = "Ruth Earle"
+    author = "Ruth Earle"
     # Sets the meta tag description, usually reserved for the main page
     description          = "I have always liked a challenge. This time I have my work cut out."
     # This will appear on the top left of the navigation bar
@@ -36,7 +37,7 @@ pygmentsStyle = "monokai"
     # minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you
     # can load multiple files if necessary. You can also load the standard theme
     # files by adding the value, "default".
-    customCSS            = ["default"]
+    customCSS            = ["default", "css/syntax.css"]
     customJS             = ["default"]
 
     # Loading min files for exampleSite
@@ -50,13 +51,15 @@ pygmentsStyle = "monokai"
 
     paragraph = "Learning to be a better programmer with Elixir and gotta-pay-the-bills JavaScript."
 
-    about     = "My name is Ruth and I am a developer. I am also a mother of two fantastically smart funny little people. I completed Makers Academy in October 2014, and became a professinal developer in June 2015. I always wanted to blog about the things I have been learning and as my one year work anniversary approaches I thought 'now is as good a time as any'."
+    about     = "My name is Ruth and I am also a mother of two fantastically smart funny little people and a developer. I completed Makers Academy in October 2014, and became a professional developer in June 2015. I always wanted to blog about my learning experiences and as my one year work anniversary approaches I thought 'now is as good a time as any'."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
 # This is optional
 [params.intro.pic]
-    src       = "/img/main/IMG_1225.JPG"
+    #src       = "/img/main/IMG_1225.JPG"
+    #src       = "/img/profile/cartoonMe.jpg"
+    src       = "/img/profile/Image-1.jpg"
     # modify your picture in the shape of a circle or
     # future imperfect's hexagonal shape
     circle    = false
