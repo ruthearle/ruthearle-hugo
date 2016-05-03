@@ -1,4 +1,4 @@
-baseurl = "http://ruthearle.com"
+baseurl = "http://blog.ruthearle.com"
 languageCode = "en-us"
 title = "What if..."
 theme = "hugo-future-imperfect"
